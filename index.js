@@ -13,7 +13,7 @@ app.get('/.well-known/apple-app-site-association', (req, res) => {
     "applinks": {
       "details": [
         {
-          "appIDs": ["YOUR_TEAM_ID.com.ben.ironwill"],
+          "appIDs": ["6ARDUJ3KH5.Benjamin.ironwill"],
           "components": [
             { "/": "/invite/*" }
           ]
