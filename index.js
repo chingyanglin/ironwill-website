@@ -13,7 +13,7 @@ app.get('/.well-known/apple-app-site-association', (req, res) => {
     "applinks": {
       "details": [
         {
-          "appIDs": ["TEAM_ID_HERE.com.ben.ironwill"],
+          "appIDs": ["YOUR_TEAM_ID.com.ben.ironwill"],
           "components": [
             { "/": "/invite/*" }
           ]
@@ -182,5 +182,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(\`Server running on port \${port}\`);
+  console.log(`Server running on port ${port}`);
 });
